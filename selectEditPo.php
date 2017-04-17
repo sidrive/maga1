@@ -11,6 +11,6 @@
 		$json[] = $row;
 	}
 	
-	echo json_encode($json);
+	echo json_encode(array('data' =>$json));
 		
 ?>
